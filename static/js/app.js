@@ -54,6 +54,8 @@ function buildCharts(sample) {
       y: otu_ids.slice(0, 10).reverse(),
       type: 'bubble',
       x: sample_values,
+      color: otu_ids,
+      size: sample_values
   }];
 
   let bubbleLayout = {
