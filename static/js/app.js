@@ -55,7 +55,8 @@ function buildCharts(sample) {
       type: 'bubble',
       x: sample_values,
       color: otu_ids,
-      size: sample_values
+      size: sample_values,
+      text: otu_labels
   }];
 
   let bubbleLayout = {
