@@ -15,7 +15,7 @@ function buildMetadata(sample) {
 
 
     // Use d3 to select the panel with id of `#sample-metadata`
-    let spanel = d3.select(".text");
+    let panel = d3.select(".text");
     
 
     // Use `.html("") to clear any existing metadata
